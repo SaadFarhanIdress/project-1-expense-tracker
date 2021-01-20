@@ -7,7 +7,7 @@ import { TransactionForm } from "./components/TransactionForm";
 
 function App() {
   return (
-    <div>
+    <GlobalProvider>
       <Header />
       <div className="container">
         <Balance />
@@ -15,7 +15,10 @@ function App() {
         <TransactionHistory />
         <TransactionForm />
       </div>
-    </div>
+      <p className="credit">Made with <img className="image" width="20" height="20" src="https://cdn.iconscout.com/icon/free/png-256/heart-1767836-1502416.png" /> by <a href="www.github.com/SaadFarhanIdress">Saad Farhan</a>
+      <br />
+      Don't forget to star my repository :) <br />Link: <a href="https://github.com/SaadFarhanIdress/project-1-expense-tracker">https://github.com/SaadFarhanIdress/project-1-expense-tracker</a></p>
+    </GlobalProvider>
   );
 }
 

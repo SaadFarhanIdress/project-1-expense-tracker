@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Lato&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fraunces&display=swap');
 
 :root {
   --box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
@@ -6,22 +6,24 @@
 
 * {
   box-sizing: border-box;
+  color: #91612f;
 }
 
 body {
-  background-color: #f7f7f7;
+  background-image: url('./background.png');
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   min-height: 100vh;
   margin: 0;
-  font-family: 'Lato', sans-serif;
+  font-family: 'Fraunces', serif;
 }
 
 .container {
   margin: 30px auto;
   width: 350px;
+  
 }
 
 h1 {
@@ -47,13 +49,19 @@ h4 {
   display: flex;
   justify-content: space-between;
   margin: 20px 0;
+  border: 2px #91612f solid;
 }
 
 .inc-exp-container>div {
   flex: 1;
   text-align: center;
 }
-
+.credit{
+  text-align: center;
+}
+h2{
+  text-align: center;
+}
 .inc-exp-container>div:first-of-type {
   border-right: 1px solid #dedede;
 }
@@ -82,11 +90,17 @@ input[type='number'] {
   border: 1px solid #dedede;
   border-radius: 2px;
   display: block;
+  border: 2px #91612f solid;
+border-radius: 10px;
+color: #91612f;
+font-family: 'Fraunces', serif;
   font-size: 16px;
   padding: 10px;
   width: 100%;
 }
-
+hr{
+  color: #91612f;
+}
 .btn {
   cursor: pointer;
   background-color: #9c88ff;
@@ -95,6 +109,10 @@ input[type='number'] {
   border: 0;
   display: block;
   font-size: 16px;
+  color: #91612f;
+  border: 2px #91612f solid;
+  border-radius: 10px;
+  background-image: url('./background.png');
   margin: 10px 0 30px;
   padding: 10px;
   width: 100%;
@@ -113,12 +131,15 @@ input[type='number'] {
 
 .list li {
   background-color: #fff;
+  border: 2px #91612f solid;
+  border-radius: 10px;
   box-shadow: var(--box-shadow);
   color: #333;
   display: flex;
   justify-content: space-between;
   position: relative;
   padding: 10px;
+  color: #91612f;
   margin: 10px 0;
 }
 
