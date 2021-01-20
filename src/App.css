@@ -45,6 +45,7 @@ h4 {
 .inc-exp-container {
   background-color: #fff;
   box-shadow: var(--box-shadow);
+  border-radius: 5px;
   padding: 20px;
   display: flex;
   justify-content: space-between;
@@ -88,12 +89,11 @@ label {
 input[type='text'],
 input[type='number'] {
   border: 1px solid #dedede;
-  border-radius: 2px;
+  border-radius: 5px;
   display: block;
   border: 2px #91612f solid;
-border-radius: 10px;
-color: #91612f;
-font-family: 'Fraunces', serif;
+  color: #91612f;
+  font-family: 'Fraunces', serif;
   font-size: 16px;
   padding: 10px;
   width: 100%;
@@ -111,7 +111,7 @@ hr{
   font-size: 16px;
   color: #91612f;
   border: 2px #91612f solid;
-  border-radius: 10px;
+  border-radius: 5px;
   background-image: url('./background.png');
   margin: 10px 0 30px;
   padding: 10px;
@@ -132,7 +132,7 @@ hr{
 .list li {
   background-color: #fff;
   border: 2px #91612f solid;
-  border-radius: 10px;
+  border-radius: 5px;
   box-shadow: var(--box-shadow);
   color: #333;
   display: flex;
@@ -141,6 +141,7 @@ hr{
   padding: 10px;
   color: #91612f;
   margin: 10px 0;
+  border-radius: 5px;
 }
 
 .list li.plus {
