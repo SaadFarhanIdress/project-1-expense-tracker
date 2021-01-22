@@ -103,11 +103,10 @@ hr{
 }
 .btn {
   cursor: pointer;
-  background-color: #9c88ff;
   box-shadow: var(--box-shadow);
-  color: #fff;
   border: 0;
   display: block;
+  font-family: 'Fraunces', serif;
   font-size: 16px;
   color: #91612f;
   border: 2px #91612f solid;
@@ -121,6 +120,8 @@ hr{
 .btn:focus,
 .delete-btn:focus {
   outline: 0;
+  font-family: 'Fraunces', serif;
+  background-color: #91612f;
 }
 
 .list {
@@ -130,11 +131,9 @@ hr{
 }
 
 .list li {
-  background-color: #fff;
   border: 2px #91612f solid;
   border-radius: 5px;
   box-shadow: var(--box-shadow);
-  color: #333;
   display: flex;
   justify-content: space-between;
   position: relative;
@@ -156,7 +155,6 @@ hr{
   cursor: pointer;
   background-color: #e74c3c;
   border: 0;
-  color: #fff;
   font-size: 20px;
   line-height: 20px;
   padding: 2px 5px;
