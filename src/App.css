@@ -122,6 +122,7 @@ hr{
   outline: 0;
   font-family: 'Fraunces', serif;
   background-color: #91612f;
+  color: white;
 }
 
 .list {
@@ -155,6 +156,7 @@ hr{
   cursor: pointer;
   background-color: #e74c3c;
   border: 0;
+  color: white;
   font-size: 20px;
   line-height: 20px;
   padding: 2px 5px;
